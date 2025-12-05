@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .bg-pena {
+        background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhdqwalls.com%2Fwallpapers%2Fdigital-art-abstract-black-lines-minimalism-5k-q3.jpg&f=1&nofb=1&ipt=62d087c2b66d7ad014df909704d18b8919bf1ee2e34b4c374f2fa0e76cf2a5d8&ipo=images');
+        @apply bg-cover
+        /* background-image: url('https://preview.redd.it/thanks-i-hate-mpreg-superman-where-godzilla-is-the-father-v0-jtlv1ds9xr6c1.png?auto=webp&s=4c20b1b5389787d938d3dc4c0f7016a541806309');
+        @apply bg-[length:100%_100%] */
+    }
+}
